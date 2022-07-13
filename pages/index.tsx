@@ -6,7 +6,7 @@ import { fadeInUp, routeAnimation, stagger } from '../animations';
 const index = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   useEffect(() => {
-    document.querySelector('.about-container').scrollIntoView({ top: "12px", behavior: 'smooth' })
+    document.querySelector('.about-container').scrollIntoView({ block: "end", behavior: 'smooth' })
   }, [])
   return (
     <motion.div variants={routeAnimation} initial="initial" animate="animate" exit="exit" className='flex flex-col flex-grow px-6 pt-1 about-container' >
