@@ -1,0 +1,141 @@
+.toggle {
+    height: 6.4vh;
+    width: 12.6vh;
+    border-radius: 50px;
+    margin: auto;
+    background-image: linear-gradient(aqua, skyblue);
+    position: relative;
+    cursor: pointer;
+}
+
+.toggle.night {
+    background-image: linear-gradient(midnightblue, rebeccapurple);
+    
+}
+
+.notch {
+    height: 5.125vh;
+    width: 5.125vh;
+    border-radius: 50%;
+    background: yellow;
+    position: absolute;
+    top: .6vh;
+    left: .6vh;
+    box-shadow: 0 0 5px yellow;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+.night .notch{
+    left:0px !important;
+}
+.notch > .crater {
+    background: burlywood;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4) inset;
+}
+.night .crater {
+    opacity: 0.4;
+    
+}
+
+.crater:first-child {
+    left: .8vh;
+    top: .3vh;
+    height: 2.4vh;
+    width: 1.2vh;
+    transform: rotate(38deg);
+}
+
+.crater:last-child {
+    right: .8vh;
+    top: .8vh;
+    height: 1.5vh;
+    width: .8vh;
+    transform: rotate(-40deg);
+}
+
+.night > .notch {
+    background: whitesmoke;
+    box-shadow: 0 0 5px whitesmoke;
+    transform: translate(6.9vh, 0);
+}
+
+.shape {
+    position: absolute;
+    background: whitesmoke;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.shape.sm {
+    height: 4px;
+    width: 4vh;
+    top: 50%;
+    left: 60%;
+}
+
+.shape.md {
+    height: 7px;
+    width: 5vh;
+    top: 25%;
+    left: 25%;
+    z-index: 2;
+}
+
+.shape.lg {
+    height: 10px;
+    width: 4.5vh;
+    bottom: 9px;
+    left: 25%;
+}
+
+.night .shape {
+    background: lightgray;
+    box-shadow: 0 0 10px 2px violet;
+}
+
+.night .shape.sm {
+    height: .4vh;
+    width: .4vh;
+    /* top:60%; */
+    transform: translate(-2.5vh, 0vh);
+}
+
+.night .shape.sm:first-of-type {
+    transform: translate(-5vh, -.9vh);
+}
+
+.night .shape.md {
+    height: .8vh;
+    width: .8vh;
+    transform: translate(1vh, 0);
+}
+
+.night .shape.lg {
+    height: 1vh;
+    width: 1vh;
+    transform: translate(-5px, 0);
+}
+div{
+    -webkit-tap-highlight-color: transparent;
+}
+@media screen and (min-width:1280px)
+{
+    .toggle{
+        transform:scale(.5);
+    }
+}
+@media screen and (min-width:768px)
+{
+    .toggle{
+        transform:scale(.6);
+    }
+}
+@media screen and (max-width:768px)
+{
+    .toggle{
+        transform:scale(.8);
+    }
+}
