@@ -6,7 +6,7 @@ import { fadeInUp, routeAnimation, stagger } from '../animations';
 const index = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   useEffect(() => {
-    document.querySelector('.about-container').scrollIntoView({ behavior: 'smooth' })
+    document.querySelector('.about-container').scrollIntoView({ top: "12px", behavior: 'smooth' })
   }, [])
   return (
     <motion.div variants={routeAnimation} initial="initial" animate="animate" exit="exit" className='flex flex-col flex-grow px-6 pt-1 about-container' >
@@ -15,7 +15,7 @@ const index = () => {
         <p>{"Determined towards my coding skills and striving hard every day for its excellence. Confident enough in my problem-solving skills. Better team partner and believe in teamwork."}</p>
         <p>{"Passion for innovation, prototyping, and high-quality manufacturing."}</p>
       </h5>
-      <div className='flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100' style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}>
+      <div className='flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 ' style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem", paddingBottom: "50px;" }}>
         <h6 className="my-3 text-xl font-bold tracking-wider" >Skills</h6>
         <motion.div className='grid gap-6 lg:grid-cols-2' variants={stagger} initial="initial" animate="animate">
           {
