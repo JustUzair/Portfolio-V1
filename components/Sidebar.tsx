@@ -12,7 +12,7 @@ const Sidebar = ({ toggled, handleClick }) => {
         setTheme(theme === "light" ? "dark" : "light");
     };
     useEffect(() => {
-        setTheme('light');
+        setTheme('dark');
     }, [])
     return (
         <div className='font-poppins'>
@@ -32,7 +32,7 @@ const Sidebar = ({ toggled, handleClick }) => {
             <a className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200" href="" download="name"><GiTie className="w-6 h-6" />Download Resume</a>
             {/* Social Icons */}
             <div className="flex items-center justify-around w-9/12 mx-auto my-5 md:w-full">
-                <a href="https://www.github.com/JustUzair" target="blank"><AiFillGithub className={`transition ease-in-out duration-75 w-8 h-8 cursor-pointer ${toggled ? '!text-white' : '!text-gray-800'}`} /></a>
+                <a href="https://www.github.com/JustUzair" target="blank"><AiFillGithub className={`transition ease-in-out duration-75 w-8 h-8 cursor-pointer ${toggled ? '!text-gray-800' : '!text-white'}`} /></a>
                 <a href="https://www.linkedin.com/in/uzair-saiyed-8805us/" target="blank"><AiFillLinkedin className="w-8 h-8 cursor-pointer !text-blue-500" /></a>
                 <a href="https://stackoverflow.com/users/12886806/uzair-saiyed" target="blank"><BsStackOverflow className="w-8 h-8 cursor-pointer !text-orange-500" /></a>
             </div>
