@@ -96,7 +96,7 @@ export const projects: IProject[] = [
         name: "Netflix-Clone",
         description:
             "A Netflix Clone, with firebase authentication. You can create an account with any random email and password and sign in using that credentials. The web app makes use of tMDb API(TheMovieDatabase API) to load movies and shows into the app. As there wasn't any database, I couldn't add the payment gateway and plans to the app, since there wouldn't be any way to check if user paid for the service, hence this project is front-end only. And also couldn't add any videos because of no- piracy policy 😅.And the project is made using ReactJS and Firebase(only for authentication).API:- tMDb.TEST CREDENTIALS Email: - abcabc@gmail.com Password: -abcabc",
-        image_path: ["/images/NetflixClone/1.png", "/images/NetflixClone/2.png", "/images/NetflixClone/3.png", "/images/NetflixClone/4.png", "/images/NetflixClone/5.png", "/images/NetflixClone/6.png"],
+        image_path: ["/images/NetflixClone/1.PNG", "/images/NetflixClone/2.PNG", "/images/NetflixClone/3.PNG", "/images/NetflixClone/4.PNG", "/images/NetflixClone/5.PNG", "/images/NetflixClone/6.PNG"],
         deployed_url: "https://netflix-clone-54fd3.web.app/",
         github_url: "https://github.com/JustUzair/react-netflix-clone",
         category: ["react", "firebase"],
@@ -108,7 +108,7 @@ export const projects: IProject[] = [
         name: "Disney-Clone",
         description:
             "Disney Plus clone. It uses ReactJS, and Firebase auth along with FirestoreDB to store the data. You can log in with Google account too.   WEBSITE LINK IN MY PROFILE, if you want to check it out for yourself. Also do not forget to hover or click on the disney, marvel, etc, logos; it has a cool little effect",
-        image_path: ["/images/DisneyClone/1.png", "/images/DisneyClone/2.png", "/images/DisneyClone/3.png", "/images/DisneyClone/4.png", "/images/DisneyClone/5.png", "/images/DisneyClone/6.png", "/images/DisneyClone/7.png"],
+        image_path: ["/images/DisneyClone/1.PNG", "/images/DisneyClone/2.PNG", "/images/DisneyClone/3.PNG", "/images/DisneyClone/4.PNG", "/images/DisneyClone/5.PNG", "/images/DisneyClone/6.PNG", "/images/DisneyClone/7.PNG"],
         deployed_url: "https://disney-clone-91559.web.app/",
         github_url: "https://github.com/JustUzair/disney-plus-clone",
         category: ["react", "firebase", "firestore"],
