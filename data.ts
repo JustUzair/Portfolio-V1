@@ -27,7 +27,7 @@ export const services: IService[] = [
         Icon: FaServer,
         title: "Backend  Development",
         about:
-            "handle database, server, api using <b>Express & Node </b> ",
+            "Handle database, server, api using <b>Express & Node </b> ",
     },
     {
         Icon: AiOutlineApi,
@@ -39,6 +39,12 @@ export const services: IService[] = [
         Icon: MdDeveloperMode,
         title: "Competitive Coder",
         about: "a daily problem solver in <b>HackerRank</b>, <b>LeetCode</b> and <b>GeeksForGeeks</b> ",
+    },
+    {
+        Icon: AiOutlineAntDesign,
+        title: "UI/UX designer",
+        about:
+            "Design stunning user interfaces using various tools like <b>Figma</b> <b>Framer-Motion</b>! ",
     },
 
 ]
