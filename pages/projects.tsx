@@ -16,12 +16,12 @@ const Projects = () => {
     }, [])
     const handleFilterCategory = (category: Category | "all") => {
         if (category === "all") {
-            setProjects(projectsData)
+            setProjects(projectsData.reverse())
             setActive(category)
             return
         }
 
-        const filteredProjects = projectsData.filter(project => project.category.includes(category));
+        const filteredProjects = projectsData.filter(project => project.category.includes(category)).reverse();
         setProjects(filteredProjects);
         setActive(category)
 

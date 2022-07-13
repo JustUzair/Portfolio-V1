@@ -113,7 +113,7 @@ export const projects: IProject[] = [
         id: 5,
         name: "Disney-Clone",
         description:
-            "Disney Plus clone. It uses ReactJS, and Firebase auth along with FirestoreDB to store the data. You can log in with Google account too.   WEBSITE LINK IN MY PROFILE, if you want to check it out for yourself. Also do not forget to hover or click on the disney, marvel, etc, logos; it has a cool little effect",
+            "Disney Plus clone. It uses ReactJS, and Firebase auth along with FirestoreDB to store the data. You can log in with Google account too. Also do not forget to hover on the disney, marvel, etc, logos (Click in mobile devices). They have cool little effects",
         image_path: ["/images/DisneyClone/1.PNG", "/images/DisneyClone/2.PNG", "/images/DisneyClone/3.PNG", "/images/DisneyClone/4.PNG", "/images/DisneyClone/5.PNG", "/images/DisneyClone/6.PNG", "/images/DisneyClone/7.PNG"],
         deployed_url: "https://disney-clone-91559.web.app/",
         github_url: "https://github.com/JustUzair/disney-plus-clone",
