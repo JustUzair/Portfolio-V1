@@ -7,14 +7,6 @@ body{
   font-family:Poppins;
   color:#354358;
 }
-/* .resume-container {
-  -ms-overflow-style: none;  
-  scrollbar-width: none;  
-}
-.resume-container::-webkit-scrollbar { 
-  display: none;  
-} */
-/* ===== Scrollbar CSS ===== */
 
   
   ::-webkit-scrollbar-thumb{
