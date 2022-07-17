@@ -131,6 +131,17 @@ export const projects: IProject[] = [
         github_url: "https://github.com/JustUzair/react-linkedin-clone",
         category: ["react", "firebase", "firestore"],
         key_techs: ["React", "Firebase Auth", "FireStoreDB", "Firebase Hosting", "Redux"]
+    },
+    {
+        id: 7,
+        name: "Portfolio-Website",
+        description:
+            " A Portfolio Website, to showcase my personal projects, achievements and skills. The website is made using Next.JS, TypeScript, Tailwind CSS and Framer-Motion. The project supports various types of filters for projects, Dark and Light Themes, etc. In addition the website is also taken care of responsiveness, optimizations, deployment, etc. All the other projects are showcased within the portfolio website 🤞🤞. Website is deployed in CI/CD manner through github on Vercel.",
+        image_path: ["/images/Portfolio-V1/1.JPG", "/images/Portfolio-V1/2.JPG", "/images/Portfolio-V1/3.JPG", "/images/Portfolio-V1/4.JPG", "/images/Portfolio-V1/5.JPG", "/images/Portfolio-V1/6.JPG"],
+        deployed_url: "https://portfolio-uzair-saiyed.vercel.app/",
+        github_url: "https://github.com/JustUzair/Portfolio-V1",
+        category: ["react", "tailwind", "next.js"],
+        key_techs: ["React", "Framer Motion", "TypeScript", "Next.js", "Tailwind"]
     }
 
 ]
