@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 import { fadeInUp, routeAnimation, stagger } from '../animations'
 
 const Projects = () => {
-    const [projects, setProjects] = useState(projectsData);
+    const [projects, setProjects] = useState(projectsData.reverse());
     const [active, setActive] = useState("all")
     const [showDetail, setShowDetail] = useState<number | null>(null);
     useEffect(() => {
@@ -16,12 +16,12 @@ const Projects = () => {
     }, [])
     const handleFilterCategory = (category: Category | "all") => {
         if (category === "all") {
-            setProjects(projectsData.reverse())
+            setProjects(projectsData)
             setActive(category)
             return
         }
 
-        const filteredProjects = projectsData.filter(project => project.category.includes(category)).reverse();
+        const filteredProjects = projectsData.filter(project => project.category.includes(category));
         setProjects(filteredProjects);
         setActive(category)
 
