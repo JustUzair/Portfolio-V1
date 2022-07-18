@@ -19,7 +19,7 @@ const resume = () => {
                         <div className="education">
                             <h5 className='my-2 text-xl font-bold'>B.E. Computer Science Engineering</h5>
                             <p className='font-semibold'>Sarvajanik College of Engineering and Technology{"(2021-2024)"}</p>
-                            <p className='my-3'>CPI: 8.7{"(Till Sem-4)"}</p>
+                            <p className='my-3'>CPI: 8.7{"(Till Sem-3)"}</p>
                         </div>
                         <div className="education">
                             <h5 className='my-2 text-xl font-bold'>Diploma in Computer Engineering</h5>
