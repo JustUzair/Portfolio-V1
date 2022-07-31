@@ -103,7 +103,7 @@ export const projects: IProject[] = [
         description:
             "A Netflix Clone, with firebase authentication. You can create an account with any random email and password and sign in using that credentials. The web app makes use of tMDb API(TheMovieDatabase API) to load movies and shows into the app. As there wasn't any database, I couldn't add the payment gateway and plans to the app, since there wouldn't be any way to check if user paid for the service, hence this project is front-end only. And also couldn't add any videos because of no- piracy policy 😅.And the project is made using ReactJS and Firebase(only for authentication).API:- tMDb.TEST CREDENTIALS Email: - abcabc@gmail.com Password: -abcabc",
         image_path: ["/images/NetflixClone/1.PNG", "/images/NetflixClone/2.PNG", "/images/NetflixClone/3.PNG", "/images/NetflixClone/4.PNG", "/images/NetflixClone/5.PNG", "/images/NetflixClone/6.PNG"],
-        deployed_url: "https://netflix-clone-54fd3.web.app/",
+        deployed_url: "https://netflix-clone-uzair.netlify.app/",
         github_url: "https://github.com/JustUzair/react-netflix-clone",
         category: ["react", "firebase"],
         key_techs: ["React", "Firebase Auth", "tMDB API", "Firebase Hosting", "Redux"]
