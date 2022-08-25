@@ -16,7 +16,8 @@ const Sidebar = ({ toggled, handleClick }) => {
     }, [])
     return (
         <div className='font-poppins'>
-            <Image
+            <a href="https://media-exp1.licdn.com/dms/image/C4D03AQHhPlCGTYTc6g/profile-displayphoto-shrink_800_800/0/1661109405203?e=1666828800&v=beta&t=UbgA9pYi5-OeDBq-YlIDSh5tTqDkS0lrBjaGKzX5TxM" target="blank">
+                <Image
                 width="130"
                 height="130"
                 className="w-32 h-32 mx-auto rounded-full min-w-30 min-h-30"
@@ -24,7 +25,8 @@ const Sidebar = ({ toggled, handleClick }) => {
                 src="/images/Uzair/profile.jpg"
                 alt="Profile Picture"
                 quality="75"
-            />
+                />
+            </a>
             <h3 className='my-4 text-3xl font-extrabold tracking-wider font-kaushan'>
                 <span className='text-green'>Uzair</span> Saiyed
             </h3>
