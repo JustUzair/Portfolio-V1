@@ -55,7 +55,7 @@ const resume = () => {
                                 <div className="internship">
                                     <h5 className='my-2 text-xl font-bold'>GeeksForGeeks </h5>
                                     <p className='font-semibold'>Technical Content Writer Intern</p>
-                                    <p className='my-3 text-sky-500'><a href="https://auth.geeksforgeeks.org/user/uzairhajra76330/articles"><i>View My Published work here!</i></a></p>
+                                    <p className='my-3 text-sky-500'><a href="https://auth.geeksforgeeks.org/user/uzairhajra76330/articles" target="blank"><i>View My Published work here!</i></a></p>
                                 </div>
                             </li>
                             <hr />
@@ -63,7 +63,7 @@ const resume = () => {
                                 <div className="">
                                     <h5 className='my-2 text-xl font-bold'>Google Developer Student Club</h5>
                                     <p className='font-semibold'>GDSC Web Development Lead</p>
-                                    <p className='my-3 text-sky-500'><a href="g.dev/JustUzair"><i>View Profile Here!</i></a></p>
+                                    <p className='my-3 text-sky-500'><a href="https://developers.google.com/profile/u/JustUzair" target="blank"><i>View Profile Here!</i></a></p>
                                 </div>
                             </li>
                         </ul>
