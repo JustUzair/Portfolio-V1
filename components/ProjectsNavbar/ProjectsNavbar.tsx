@@ -25,7 +25,6 @@ const ProjectsNavbar: FunctionComponent<{ handleFilterCategory: Function }> = (p
             <NavItem value="react" {...props}></NavItem>
             <NavItem value="node" {...props}></NavItem>
             <NavItem value="express" {...props}></NavItem>
-            {/* <NavItem value="django" {...props}></NavItem> */}
             <NavItem value="mongo" {...props}></NavItem>
             <NavItem value="next.js" {...props}></NavItem>
             <NavItem value="firebase" {...props}></NavItem>
