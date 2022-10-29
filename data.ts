@@ -142,6 +142,15 @@ export const projects: IProject[] = [
         github_url: "https://github.com/JustUzair/Portfolio-V1",
         category: ["react", "tailwind", "next.js"],
         key_techs: ["React", "Framer Motion", "TypeScript", "Next.js", "Tailwind"]
+    },{
+        id:8,
+        name:"Natours",
+        description:"A tours and travels website for trekking and exploring nature. The website includes functionalities like Sign Up, Login, Forgot Password, Reset Password, Upload Profile Photo, Pay and Book your tour, Submit, edit and remove their reviews, receive emails in real time, and much more. In addition to all this, the website is taken care of responsiveness, optimizations, security, etc.",
+        deployed_url: "https://natours-uzair.herokuapp.com/",
+        image_path: ["/images/Natours/1.JPG", "/images/Natours/2.JPG", "/images/Natours/3.JPG", "/images/Natours/4.JPG", "/images/Natours/5.JPG", "/images/Natours/6.JPG","/images/Natours/7.JPG","/images/Natours/8.JPG"],
+        github_url: "https://github.com/JustUzair/Natours",
+        category: ["pug", "node","mongo","express"],
+        key_techs: ["NodeJs", "MongoDB","Express", "Cloudinary API", "Pug Template", "SendGrid"]
     }
 
 ]

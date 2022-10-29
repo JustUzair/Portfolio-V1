@@ -21,4 +21,4 @@ export interface IProject {
 }
 
 // export type Category = "react" | "node" | "express" | "django" | "mongo" | "firebase" | "firestore" - Edit List in ProjectsNavbar.tsx
-export type Category = "react" | "firebase" | "firestore" | "tailwind" | "next.js"
+export type Category = "react" | "firebase" | "firestore" | "tailwind" | "next.js" | "node" | "mongo" | "express" | "pug"
