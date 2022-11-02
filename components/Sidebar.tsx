@@ -32,7 +32,7 @@ const Sidebar = ({ toggled, handleClick }) => {
             </h3>
             <p className='px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200'>CSE 24{"'"} Sarvajanik College of Engineering and Technology</p>
             <a className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200" 
-            href="/assets/Uzair_Saiyed_BE_Sem_5.pdf" download type="application/pdf"
+            href="/assets/Uzair_Saiyed_BE_CSE_Full-Stack.pdf" download type="application/pdf"
             ><GiTie className="w-6 h-6" />Download Resume</a>
             {/* Social Icons */}
             <div className="flex items-center justify-around w-9/12 mx-auto my-5 md:w-full">
