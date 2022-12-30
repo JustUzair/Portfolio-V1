@@ -34,11 +34,11 @@ const ProjectsNavbar: FunctionComponent<{
   return (
     <div className="flex px-3 py-2 space-x-3 overflow-x-auto list-none ">
       <NavItem value="all" {...props} />
+      <NavItem value="hardhat" {...props}></NavItem>
       <NavItem value="react" {...props}></NavItem>
       <NavItem value="node" {...props}></NavItem>
       <NavItem value="express" {...props}></NavItem>
       <NavItem value="mongo" {...props}></NavItem>
-      <NavItem value="hardhat" {...props}></NavItem>
       <NavItem value="next.js" {...props}></NavItem>
       <NavItem value="firebase" {...props}></NavItem>
       <NavItem value="firestore" {...props}></NavItem>
