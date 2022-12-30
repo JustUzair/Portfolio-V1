@@ -17,8 +17,9 @@ const Projects = () => {
       .scrollIntoView({ behavior: "smooth" });
   }, []);
   const handleFilterCategory = (category: Category | "all") => {
+    let projectsArray;
     if (category === "all") {
-      let projectsArray = [...projectsData].reverse();
+      projectsArray = [...projectsData].reverse();
       setProjects(projectsArray);
       setActive(category);
       return;
@@ -27,7 +28,7 @@ const Projects = () => {
     const filteredProjects = projectsData.filter(project =>
       project.category.includes(category)
     );
-    let projectsArray = [...filteredProjects].reverse();
+    projectsArray = [...filteredProjects].reverse();
     setProjects(projectsArray);
     setActive(category);
   };
