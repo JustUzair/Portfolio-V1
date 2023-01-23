@@ -2,53 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
   background-color: black;
-  font-family:Poppins;
-  color:#354358;
+  font-family: Poppins;
+  color: #354358;
 }
 
-  
-  ::-webkit-scrollbar-thumb{
-    background-image: linear-gradient(to right bottom,#00f260,#0575e6);
-    border-radius:5px;
-  }
-  ::-webkit-scrollbar{
-    width:8px;
-    height: 0;
-    
-  }
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to right bottom, #00f260, #0575e6);
+  border-radius: 5px;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 0;
+}
 
- /* slide in underline nav items porject */
- .nav-item{
-  position:relative;
- }
- .active{
-  color:#00f260;
- }
- .active:after{
-  content: '';
+/* slide in underline nav items porject */
+.nav-item {
+  position: relative;
+}
+.active {
+  color: #00f260;
+}
+.active:after {
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(1) !important;
-  bottom:5px;
+  bottom: 5px;
   height: 3px;
   bottom: 0;
   left: 0;
-  top:25px;
+  top: 25px;
   background-color: #00f260;
 }
 
-.nav-item:after{
-  content: '';
+.nav-item:after {
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
-  bottom:5px;
+  bottom: 5px;
   height: 3px;
   bottom: 0;
   left: 0;
-  top:25px;
+  top: 25px;
   background-color: #00f260;
   transform-origin: bottom left;
   transition: transform 0.25s ease-out;
