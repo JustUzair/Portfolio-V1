@@ -216,7 +216,7 @@ export const projects: IProject[] = [
     name: "Natours",
     description:
       "A tours and travels website for trekking and exploring nature. The website includes functionalities like JWT Authentication, Sign Up, Login, Forgot Password, Reset Password, Upload Profile Photo, Pay and Book your tour, Submit, edit and remove their reviews, receive emails in real time, and much more. In addition to all this, the website is taken care of responsiveness, optimizations, security, etc.",
-    deployed_url: "https://natours-uzair.herokuapp.com",
+    deployed_url: "https://natours-8l3p.onrender.com/",
     image_path: [
       "/images/Natours/1.JPG",
       "/images/Natours/2.JPG",
@@ -263,5 +263,29 @@ export const projects: IProject[] = [
     github_url: "https://github.com/JustUzair/NextJS-Raffle",
     category: ["hardhat", "react", "tailwind", "next.js"],
     image_path: ["/images/NextJS-Raffle/1.JPG", "/images/NextJS-Raffle/1.JPG"],
+  },
+
+  {
+    id: 11,
+    name: "Mintrrs",
+    description:
+      "An NFT minting site that generates different Arts based on the layers generated and uploaded by the artists. The website is a crossover between Web2 and Web3, where artist can generate upto hundreds and thousands of arts just with a few scribbles",
+    deployed_url: "https://mintrrs.onrender.com/",
+    image_path: [
+      "/images/Mintrrs/1.JPG",
+      "/images/Mintrrs/2.JPG",
+      "/images/Mintrrs/3.JPG",
+      "/images/Mintrrs/4.JPG",
+    ],
+    github_url: "https://github.com/JustUzair/NFT-Generator",
+    category: ["pug", "node", "mongo", "express"],
+    key_techs: [
+      "NodeJs",
+      "MongoDB",
+      "Express",
+      "Pug Template",
+      "SendGrid",
+      "Metamask",
+    ],
   },
 ];
