@@ -288,4 +288,16 @@ export const projects: IProject[] = [
       "Metamask",
     ],
   },
+
+  {
+    id: 12,
+    name: "Pumpkin-Index",
+    description:
+      "An index token is like a basket that holds many different types of cryptocurrencies at once, allowing investors to invest in several cryptocurrencies through one token.",
+    deployed_url: "https://pumpkin-protocol-fantom.vercel.app/",
+    image_path: ["/images/Pumpkin-Index/1.JPG", "/images/Pumpkin-Index/2.JPG"],
+    github_url: "https://github.com/JustUzair/Pumpkin-Protocol",
+    key_techs: ["React", "Hardhat", "Solidity", "Next.js"],
+    category: ["hardhat", "react", "next.js"],
+  },
 ];
