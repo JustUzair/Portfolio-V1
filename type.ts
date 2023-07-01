@@ -31,4 +31,5 @@ export type Category =
   | "mongo"
   | "express"
   | "pug"
-  | "hardhat";
+  | "hardhat"
+  | "DeFi";

@@ -6,6 +6,9 @@ import {
   FaJava,
   FaNodeJs,
 } from "react-icons/fa";
+
+import { GiTrophyCup } from "react-icons/gi";
+import { SiHiveBlockchain } from "react-icons/si";
 import { AiOutlineApi, AiOutlineAntDesign, AiFillHtml5 } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
 import { GrReactjs } from "react-icons/gr";
@@ -37,19 +40,23 @@ export const services: IService[] = [
   {
     Icon: AiOutlineApi,
     title: "API Development",
-    about: "I can develop robust  REST API using <b>Node API</b> ",
+    about: "I can develop robust  REST API using <b>Node JS</b> ",
+  },
+  //   {
+  //     Icon: MdDeveloperMode,
+  //     title: "Competitive Coder",
+  //     about:
+  //       "a daily problem solver in <b>HackerRank</b>, <b>LeetCode</b> and <b>GeeksForGeeks</b> ",
+  //   },
+  {
+    Icon: SiHiveBlockchain,
+    title: "Blockchain & Web3 Development",
+    about: "Developing Smart Contracts in <b>Solidity</b> and <b>Solana</b>.! ",
   },
   {
-    Icon: MdDeveloperMode,
-    title: "Competitive Coder",
-    about:
-      "a daily problem solver in <b>HackerRank</b>, <b>LeetCode</b> and <b>GeeksForGeeks</b> ",
-  },
-  {
-    Icon: AiOutlineAntDesign,
-    title: "UI/UX designer",
-    about:
-      "Design stunning user interfaces using various tools like <b>Figma</b> <b>Framer-Motion</b>! ",
+    Icon: GiTrophyCup,
+    title: "2x Web3 Hackathon Winner 🏆",
+    about: "Winner of Fantom Q1 and Theta 2023 Hackathon (Devpost)",
   },
 ];
 
@@ -297,7 +304,29 @@ export const projects: IProject[] = [
     deployed_url: "https://pumpkin-protocol-fantom.vercel.app/",
     image_path: ["/images/Pumpkin-Index/1.JPG", "/images/Pumpkin-Index/2.JPG"],
     github_url: "https://github.com/JustUzair/Pumpkin-Protocol",
-    key_techs: ["React", "Hardhat", "Solidity", "Next.js"],
+    key_techs: ["React", "Hardhat", "Solidity", "Next.js", "Remix", "DeFi"],
+    category: ["hardhat", "react", "next.js", "DeFi"],
+  },
+  {
+    id: 13,
+    name: "ThetaFans",
+    description:
+      "Thetafans solves the problem of costly intermediaries in content monetization by leveraging blockchain technology, enabling direct and secure transactions between creators and fans without the need for intermediaries, such as payment processors, resulting in increased revenue for creators.",
+    deployed_url: "https://thetafans.vercel.app/",
+    image_path: ["/images/ThetaFans/1.JPG", "/images/ThetaFans/2.JPG"],
+    github_url: "https://github.com/JustUzair/ThetaFans",
+    key_techs: ["React", "Hardhat", "Solidity", "Next.js", "Remix"],
     category: ["hardhat", "react", "next.js"],
+  },
+  {
+    id: 14,
+    name: "NEKO-DEX",
+    description:
+      "A Cute Cat-Themed DeFi Protocol on Polygon,OKX & Fantom Networks, the protocol includes Decentralized Exchange, Liquidity Pools, LP Tokens Staking, Donations, AAVE Staking, and so much more.",
+    deployed_url: "https://neko-dex.vercel.app/",
+    image_path: ["/images/NEKO-DEX/1.PNG", "/images/NEKO-DEX/2.PNG"],
+    github_url: "https://github.com/JustUzair/NEKO-DEX",
+    key_techs: ["React", "Hardhat", "Solidity", "Next.js", "Remix", "DeFi"],
+    category: ["hardhat", "react", "next.js", "DeFi"],
   },
 ];
