@@ -313,7 +313,7 @@ export const projects: IProject[] = [
     description:
       "Thetafans solves the problem of costly intermediaries in content monetization by leveraging blockchain technology, enabling direct and secure transactions between creators and fans without the need for intermediaries, such as payment processors, resulting in increased revenue for creators.",
     deployed_url: "https://thetafans.vercel.app/",
-    image_path: ["/images/ThetaFans/1.JPG", "/images/ThetaFans/2.JPG"],
+    image_path: ["/images/ThetaFans/1.jpg", "/images/ThetaFans/2.jpg"],
     github_url: "https://github.com/JustUzair/ThetaFans",
     key_techs: ["React", "Hardhat", "Solidity", "Next.js", "Remix"],
     category: ["hardhat", "react", "next.js"],
@@ -324,7 +324,7 @@ export const projects: IProject[] = [
     description:
       "A Cute Cat-Themed DeFi Protocol on Polygon,OKX & Fantom Networks, the protocol includes Decentralized Exchange, Liquidity Pools, LP Tokens Staking, Donations, AAVE Staking, and so much more.",
     deployed_url: "https://neko-dex.vercel.app/",
-    image_path: ["/images/NEKO-DEX/1.PNG", "/images/NEKO-DEX/2.PNG"],
+    image_path: ["/images/NEKO-DEX/1.png", "/images/NEKO-DEX/2.png"],
     github_url: "https://github.com/JustUzair/NEKO-DEX",
     key_techs: ["React", "Hardhat", "Solidity", "Next.js", "Remix", "DeFi"],
     category: ["hardhat", "react", "next.js", "DeFi"],
